@@ -562,7 +562,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
   grid-gap: 2em;
 }
 
@@ -574,13 +574,12 @@ main {
   color: var(--clr-fg-alt);
 }
 
-.imgEducation {
-  width: 600px;
-  height: 550px;
-  border-radius: 30%;
+.imgCertificate {
+  width: 490px;
+  height: 400px;
 }
 
-.textEducation {
+.textCertificate {
   font-size: 25px;
   padding-top: 20px;
   font-weight: 500;
