@@ -553,17 +553,34 @@ main {
   /* Cover the entire space within the circle */
 }
 
+.section.certificate {
+  padding: 20px;
+  text-align: center;
+}
+
 .card:hover .icon {
   background-color: #ffffff;
   color: #2978b5;
 }
 
 .certificates__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
-  grid-gap: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate_item {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.imgCertificate {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 
 .content .cheading {
@@ -574,16 +591,6 @@ main {
   color: var(--clr-fg-alt);
 }
 
-.imgCertificate {
-  width: 490px;
-  height: 400px;
-}
-
-.textCertificate {
-  font-size: 25px;
-  padding-top: 20px;
-  font-weight: 500;
-}
 
 
 
